@@ -59,7 +59,7 @@ module.exports = {
    *  I'm not sure why someone would want the 5-7 settings but i'm including it
    *  just so every config is possible.
    */
-  requiredAuth: 0,
+  requiredAuth: 4,
 
   /**
    * Similar to before, but simply restricts to current students only.
@@ -85,9 +85,9 @@ module.exports = {
   /**
    * navlink type (href|react)
    *
-   * href will be a normal link while react will use a ink container
+   * href will be a normal link while react will use a link container
    */
-  routeType: "href",
+  routeType: "react-router",
 
   /**
    * database url for the postgress db
@@ -111,11 +111,6 @@ module.exports = {
   importReact: true,
 
   /**
-   *
-  createRoute: false,
-   */
-
-  /**
    * If backbone should try importing an express backend
    * (expected format in /src/server/index.js)
    */
@@ -124,7 +119,7 @@ module.exports = {
   /**
    * If Backbone should try importing react admin panel.
    */
-  importAdmin: false,
+  importAdmin: true,
 
   /**
    * If Backbone shoud try importing redux
