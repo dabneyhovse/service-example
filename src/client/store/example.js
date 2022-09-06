@@ -10,7 +10,7 @@ export const gotExamples = (examples) => {
 };
 
 // Thunks, async functions basically
-export const fetchExamples = () => async (dispatch, getState) => {
+export const fetchExamples = () => async (dispatch) => {
   try {
     const res = await Axios.get("/api/example/examples");
     dispatch(gotExamples(res.data));

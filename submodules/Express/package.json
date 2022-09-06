@@ -1,5 +1,5 @@
 {
   "name": "service-example/submodules/Express",
   "private": true,
-  "main": "../../../src/server/api/index.js",
+  "main": "../../../src/server/api/index.js"
 }
