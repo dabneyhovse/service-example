@@ -1,0 +1,5 @@
+{
+  "name": "service-example/submodules/React",
+  "private": true,
+  "module": "../../src/client/components/index.js"
+}

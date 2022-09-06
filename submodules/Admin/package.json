@@ -1,0 +1,5 @@
+{
+  "name": "service-example/submodules/Admin",
+  "private": true,
+  "module": "../../src/client/admin_components/index.js"
+}
