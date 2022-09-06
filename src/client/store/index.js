@@ -18,4 +18,10 @@ const reducer = combineReducers({
   example,
 });
 
+// emulate what backbone will do.
+// change out example for your route name
+export const fakeBackbone = combineReducers({
+  example: reducer,
+});
+
 export default reducer;

@@ -1,5 +1,0 @@
-{
-  "name": "service-example/submodules/Database",
-  "private": true,
-  "main": "../../../src/server/db/index.js"
-}

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   /**
    * The name of the service, this is what you will see on the navbar dropdown of the main dabney website
    */
@@ -24,7 +24,18 @@ export default {
   /**
    * if the service should be displayed in the navbar
    */
-  displayInNav: false,
+  displayInNav: true,
+
+  /**
+   * Describes what section the dropdown item appears in
+   *
+   * options are ("b","m","t")
+   *
+   * "b" => bottom
+   * "m" => middle
+   * "t" => top
+   */
+  dropdownItemPosition: "m",
 
   /**
    * Tool tip to display when hovering over the link in the services dropdown
@@ -91,19 +102,24 @@ export default {
    * If backbone should try importing a sequelize db file
    * (expected format in /src/db/index.js)
    */
-  importDb: false,
+  importDb: true,
 
   /**
    * If backbone should try importing a react component (note that this should be true if a displayInNav is true)
    * (expected format in /src/client/index.js)
    */
-  importReact: false,
+  importReact: true,
+
+  /**
+   *
+  createRoute: false,
+   */
 
   /**
    * If backbone should try importing an express backend
    * (expected format in /src/server/index.js)
    */
-  importExpress: false,
+  importExpress: true,
 
   /**
    * If Backbone should try importing react admin panel.
@@ -113,5 +129,5 @@ export default {
   /**
    * If Backbone shoud try importing redux
    */
-  importRedux: false,
+  importRedux: true,
 };

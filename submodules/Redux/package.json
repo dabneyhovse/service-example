@@ -1,5 +1,0 @@
-{
-  "name": "service-example/submodules/Redux",
-  "private": true,
-  "module": "../../src/client/store/index.js"
-}
